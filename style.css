@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin: 50px auto;
+    
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color:darkcyan ;
+    margin-top: 50px;
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.358);
+    width: 20px;
+    height: 20px;
+    background-color: darkcyan;
+    border-radius: 50%;
+}
+.aa{
+    animation: proccess 1s linear 0.1s infinite;
+}
+.bb{
+    animation: proccess 1s linear 0.2s infinite;
+}
+.cc{
+    animation: proccess 1s linear 0.4s infinite;
+}
+.dd{
+    animation: proccess 1s linear 0.6s infinite;
+}
+.ee{
+    animation: proccess 1s linear 0.8s infinite;
+}
+@keyframes proccess {
+   
+    100%{background-color: darkcyan;}
+    0%{background-color: transparent;}
+    
+}
